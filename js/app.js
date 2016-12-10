@@ -3,8 +3,6 @@
 requirejs.config({
 	"baseUrl":"js",
 	"paths": {
-
-		"game":"app/game",
 		// Libraries
 		"quintus":"libs/quintus/quintus",
 		"qSprites":"libs/quintus/quintus_sprites",
@@ -15,8 +13,10 @@ requirejs.config({
 		"qTouch":"libs/quintus/quintus_touch",
 		"qUI":"libs/quintus/quintus_ui",
 		"qTMX":"libs/quintus/quintus_tmx",
-		"qAudio":"libs/quintus/quintus_audio"
+		"qAudio":"libs/quintus/quintus_audio",
 
 		// Classes
+
+		"game":"app/game"
 	}
 });
