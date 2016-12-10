@@ -3,6 +3,8 @@
 requirejs.config({
 	"baseUrl":"js",
 	"paths": {
+
+		"game":"app/game",
 		// Libraries
 		"quintus":"libs/quintus/quintus",
 		"qSprites":"libs/quintus/quintus_sprites",
