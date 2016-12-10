@@ -1,5 +1,5 @@
 define(['quintus','qScenes','qSrites','qInput','qAnim','q2D','qTouch','qUI','qTMX','qAudio'],
-	function(Q){
+	function(){
 	var Q = Quintus({ 
 			imagePath: "res/img/",
 			audioPath:"res/audio/",
